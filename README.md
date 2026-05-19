@@ -29,7 +29,7 @@ This project requires an active Azure subscription and an Azure AD P2 license.
 
 3. Select **Application Administrator** role then select **Next**
 
-#Capture 4
+# Capture 4
 
 5. For the **Assignment Type** choose the **Active** value then enter a justification and press **Assign**
 
