@@ -1,4 +1,4 @@
-# Microsoft-Entra-ID
+# Microsoft Entra ID – User & Identity Management Fundamentals
 
 This project requires an active Azure subscription and an Azure AD P2 license.
 
