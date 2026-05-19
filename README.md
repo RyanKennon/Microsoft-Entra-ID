@@ -4,7 +4,7 @@ This project requires an active Azure subscription and an Azure AD P2 license.
 
 ---
 
-### 1) Create and Login to User Account
+### 1) Create User Account
 
 1. In the your **Microsoft 365 admin account** expand the **Entra ID** dropdown
 2. Under **Users** select **All Users** then **New User** and **Create New User**
