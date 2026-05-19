@@ -2,7 +2,7 @@
   <img width="474" height="279" alt="image" src="https://github.com/user-attachments/assets/584155f5-b617-48f1-bd7c-22029abedfb7" />
 </p>
 
-# Microsoft Entra ID – User & Identity Management Fundamentals
+# Microsoft Entra ID: User & Identity Management Fundamentals
 
 
 In this project, we explore the core identity and user management capabilities of Microsoft Entra ID. Starting with creating and assigning roles to individual users, we then move into bulk user management via CSV import, license assignment, and configuring tenant-level settings such as custom subdomains, display names, and privacy information. From there, we cover group management including security groups, Microsoft 365 groups, and dynamic groups. The project then shifts to external identity configuration, walking through guest user invitations, self-service sign-up, external collaboration settings, and setting up Google as a federated identity provider — wrapping up by accepting a guest invitation and verifying the end-to-end login experience.
