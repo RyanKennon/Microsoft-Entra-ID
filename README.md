@@ -115,10 +115,58 @@ This project requires an active Azure subscription and an Azure AD P2 license.
 ### 8) Confirm User Has an Active License
 
 1. Go back to the **Microsoft Entra Admin Center**
-1. On the **All Users** page select **Michael Scott**
-2. Select the **Licenses** menu item on the left and ensure that it says **AAD_PREMIUM_P2**
+2. On the **All Users** page select **Michael Scott**
+3. Select the **Licenses** menu item on the left and ensure that it says **AAD_PREMIUM_P2**
 
 # Capture 15
+
+---
+
+### 9) Create Custom Subdomains
+
+1. Open the **Domain Names** tab then select **Add Custom Domains**
+
+# Capture 18
+
+2. In the **Custom Domain** field create a custom subdomain for the sales department using the following format then select **Add Domain**
+   `Sales.LabTenantName.onmicrosoft.com`
+
+# Navigation 2
+
+3. Open the **Microsoft 365 Admin Center** link
+4. Once there open the **Domains** tab and select **Add Domain**
+
+# Capture 19
+
+5. In the **Domain Name** field create a custom subdomain for the sales department using the following format then select **Use This Domain**
+   `Sales.LabTenantName.onmicrosoft.com`
+
+# Capture 20
+
+6. Go back to the **Microsoft Entra Admin Center** and select **Refresh** on the **Custom Domain Names** page to find the new domain
+
+# Capture 21
+
+---
+
+### 10) Changing the Tenant Display Name
+
+1. Open the **Overview** menu and select **Properties**
+2. Change the **Name** and the **Technical Contact to the following then select **Save**
+  `**Name:** Dunder-Mifflin
+   **Technical Contact:** *Your Global Admin Account*`
+
+# Capture 22
+
+---
+
+### 11) Setting Your Privacy Information
+
+1. In the **Overview** menu in the **Properties** tab
+2. Enter the email address for **Michael Scott** as the **Global Privacy Contact**
+3. Enter this **Privacy Statement URL** into the **Privacy Statement URL** text box then **Save**
+
+# Capture 23
 
 ---
 
