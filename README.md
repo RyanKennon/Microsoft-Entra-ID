@@ -92,7 +92,7 @@ In this project, we explore the core identity and user management capabilities o
   <img width="637" height="492" alt="Capture4" src="https://github.com/user-attachments/assets/fcec9dc8-401c-4585-956a-a027f25a1d24" />
 </p>
 
-5. For the **Assignment Type** choose the **Active** value then enter a justification and press **Assign**
+4. For the **Assignment Type** choose the **Active** value then enter a justification and press **Assign**
 
 <p align="center">
   <img width="570" height="556" alt="Capture5" src="https://github.com/user-attachments/assets/3b7fcc32-e266-4881-a29d-3fa27de11ff2" />
@@ -121,7 +121,7 @@ In this project, we explore the core identity and user management capabilities o
   <img width="1330" height="234" alt="Capture8" src="https://github.com/user-attachments/assets/6a74f2ed-c242-4482-9542-0c9ffb98d1c3" />
 </p>
 
-4. *Refresh** and confirm that **Michael Scott** is no longer listed as having the **Application Administrator** role
+4. **Refresh** and confirm that **Michael Scott** is no longer listed as having the **Application Administrator** role
 
 ---
 
@@ -247,7 +247,7 @@ In this project, we explore the core identity and user management capabilities o
 ### 10) Changing the Tenant Display Name
 
 1. Open the **Overview** menu and select **Properties**
-2. Change the **Name** and the **Technical Contact to the following then select **Save**
+2. Change the **Name** and the **Technical Contact** to the following then select **Save**
   `**Name:** Dunder-Mifflin
    **Technical Contact:** *Your Global Admin Account*`
 
@@ -261,7 +261,7 @@ In this project, we explore the core identity and user management capabilities o
 
 1. In the **Overview** menu in the **Properties** tab
 2. Enter the email address for **Michael Scott** as the **Global Privacy Contact**
-3. Enter this **[URL]()** into the **Privacy Statement URL** text box then **Save**
+3. Enter this **[URL](https://github.com/RyanKennon/Microsoft-Entra-ID/blob/main/Privacy%20Statement%20Sample.pdf)** into the **Privacy Statement URL** text box then **Save**
 
 <p align="center">
   <img width="723" height="288" alt="Capture23" src="https://github.com/user-attachments/assets/61405bcf-b2c6-4224-a1ff-9a458af4b4b5" />
@@ -372,7 +372,7 @@ In this project, we explore the core identity and user management capabilities o
 
 ---
 
-### 16) Enable Guest Users to Perform Self Serice Sign-Up
+### 16) Enable Guest Users to Perform Self Service Sign-Up
 
 1. On the **Users** menu navigate to **User Settings** and select **Manage External Collaboration Settings**
 
@@ -405,7 +405,7 @@ In this project, we explore the core identity and user management capabilities o
 </p>
 
 4. Select the **External Collaboration Settings**
-5. Find where it says **Guest User Access** select **Guest User Access is Restricted to Properties and Memberships of Their Own Directory Objects (Most Rrestrictive)**
+5. Find where it says **Guest User Access** select **Guest User Access is Restricted to Properties and Memberships of Their Own Directory Objects (Most Restrictive)**
 
 <p align="center">
   <img width="704" height="171" alt="Capture38" src="https://github.com/user-attachments/assets/1da09bdc-8a74-4001-834a-8d93573cf8e7" />
