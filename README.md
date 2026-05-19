@@ -312,7 +312,7 @@ This project requires an active Azure subscription and an Azure AD P2 license.
 2. Where it says **Download CSV Template** select download and follow along with the template to create guest users
 3. Enter this file into where it says **Upload Your CSV File** then **Submit**
 
-# Capture 41
+# Capture 42
 
 4. Verify the guest users appear in the **All Users** page
 
@@ -320,6 +320,106 @@ This project requires an active Azure subscription and an Azure AD P2 license.
 
 ### 20) Configure Google to be Used as an Identity Provider
 
-1. Go to the [**Google APIs site**](https://console.cloud.google.com/projectselector2/apis/dashboard?pli=1&supportedpurview=project&authuser=1) and sign in with your **Google Account**
+1. Go to the [**Google APIs Site**](https://console.cloud.google.com/projectselector2/apis/dashboard?pli=1&supportedpurview=project&authuser=1) and sign in with your **Google Account**
 2. Click **Select a Project** then **New Project** and select **create**
 3. Open the project by clicking **Select Project** on the **Notifications** page
+
+# Capture 43
+
+4. On the left side of the screen select the **OAuth Consent Screen** then select **Get Started**
+5. Enter the following information to create the project
+   `**App Information**
+   **App Name:** Microsoft Entra ID
+   **User Support Email:** Select email name form dropdown menu
+   **Audience**
+   **Internal/External:** External
+   **Contact Information:** Use User Support Email address
+   **Finish**
+   **Mark the agreement checkbox**`
+6. Select the **Create OAuth Client** button
+7. For the **Application Type** choose **Web Application**
+8. Under **Authorized JavaScript Origins** select **Add URI** then add `https://microsoftonline.com` as the URI
+
+# Capture 44
+
+9. Under **Authorized Redirect URIs** select **Add URI**
+    `**First URI:** https://login.microsoftonline.com
+   **Second URI:** https://login.microsoftonline.com/te/**tenant ID**/oauth2/authresp
+   **Third URI:** https://login.microsoftonline.com/te/**tenant name**.onmicrosoft.com/oauth2/authresp`
+
+# Capture 45
+
+10. Once everything is entered select **Create**
+
+---
+
+### 21) Add a Test User in Google
+
+1. On the **Google API Site** select the **Audience** tab on the left side of the screen
+2. Scroll down to **Test Users** then select **Add Users**
+
+# Capture 46
+
+3. Enter **The Email Account Your Using for This Lab** then select **Save**
+
+---
+
+### 22) Add Authorized Domain to Branding
+
+1. On the **Google API Site** select the **Branding** tab on the left side of the screen
+2. Find the **Authorized Domains** section at the bottom of the page then select **Add Domain** and add the domain `microsoftonline.com`
+3. In the **Developer Contact Information** make sure the email address your using in this lab appears in the box
+4. Select **Save**
+
+# Capture 47 block out my email address
+
+---
+
+### 23) Find Google Client ID and Client Secret
+
+1. On the **Google API Site** select the **Clients** tab on the left side of the screen
+2. On the right side of the screen under **Additional Information** the **Client ID** appears
+3. Below that under the **Client Secrets** the **Client Secret** appears
+
+# Capture 49 block out the client id and client secret
+
+---
+
+### 24) Configure Microsoft Entra ID for Google Federation
+
+1. On the **Microsoft Entra ID Admin Center** open the **External Identities** tab
+2. Open the **All Identity Providers** page then select **Configure** next to **Google**
+
+# Capture 48
+
+3. Enter the **Client ID** and the **Client Secret** then select **Save**
+4. Verify that on the **External Identities** page it says **Configured** next to **Google**
+
+# Capture 50
+
+---
+
+### 25) Invite the Test User Account
+
+1. Open the **All Users** page in **Microsoft Entra ID Admin Center**
+2. Select **New User** then **Invite External User**
+
+# Capture 51
+
+3. Enter the email account that you were using while entering information on the Google API site
+4. Select **Review and Invite** then **Invite**
+
+---
+
+### 26) Accept the Invitation and Login
+
+1. Open the email account that you have been using during these previous steps
+2. Open the **Microsoft Invitation on Behalf of** email then select **Accept Invitation**
+
+# Capture 52
+
+3. After logging in it will take you to the **Apps Dashboard** with the correct user information on the left side of the screen
+
+# Navigation 6
+
+---
